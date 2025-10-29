@@ -20,7 +20,7 @@ Steps:
    http://localhost:8080/api/bookings/all  
    ✅ You should see booking data (JSON format).
 
----
+-------------------------------------------------------------------------------------------------------------
 
 💻 2️⃣ Run the FRONTEND (React App)
 📁 Folder: THEMEPARK-FRONTEND
@@ -36,14 +36,14 @@ Steps:
 
 ✅ The homepage will appear with your Theme Park Ticket Booking interface.
 
----
+-------------------------------------------------------------------------------------------------
 
 🔄 3️⃣ Connecting Frontend & Backend
 - The frontend automatically sends requests to:  
   http://localhost:8080/api/bookings  
 - Make sure both frontend (3000) and backend (8080) are running at the same time.
 
----
+-------------------------------------------------------------------------------------------------
 
 🧩 4️⃣ Project Overview
 - Frontend: React + Tailwind CSS  
@@ -53,7 +53,7 @@ Steps:
   - Stores data in MongoDB  
   - View all bookings (simple upgraded feature)
 
----
+-------------------------------------------------------------------------------------------------
 
 🎯 5️⃣ To Stop the App
 - Backend: Press Ctrl + C in the terminal running mvn spring-boot:run  
